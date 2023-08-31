@@ -1,0 +1,51 @@
+body {
+    background-color: #89CFF0;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 4rem;
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+p {
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#puppyList {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid black;
+    width: fit-content;
+    font-size: 2rem;
+}
+
+.selected {
+    border: solid 3px rgb(238, 238, 238);
+}
+
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column;
+    }
+}
